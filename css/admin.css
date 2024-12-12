@@ -1,0 +1,48 @@
+/**
+ * Timed Sale Manager Admin Styles
+ */
+
+/* Tab Icon */
+#woocommerce-product-data ul.wc-tabs li.timed_sale_options a::before {
+    content: '\f508';
+    font-family: dashicons;
+}
+
+/* Panel Styling */
+#timed_sale_data .options_group {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Form Field Spacing */
+#timed_sale_data .form-field {
+    padding: 5px 20px 5px 162px !important;
+    margin: 9px 0;
+}
+
+/* Label Styling */
+#timed_sale_data .form-field label {
+    float: left;
+    width: 150px;
+    padding: 0;
+    margin: 0 0 0 -150px;
+}
+
+/* Input Field Styling */
+#timed_sale_data input[type="number"],
+#timed_sale_data input[type="datetime-local"] {
+    width: 50%;
+}
+
+/* Description Styling */
+#timed_sale_data .woocommerce-help-tip {
+    margin: 0 0 0 5px;
+}
+
+/* Responsive Adjustments */
+@media only screen and (max-width: 1280px) {
+    #timed_sale_data input[type="number"],
+    #timed_sale_data input[type="datetime-local"] {
+        width: 100%;
+    }
+}
